@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author vuhanh
+ * @author hieuv
  */
 public class StudentList {
    
@@ -34,6 +34,10 @@ public class StudentList {
             System.out.println("invalid input!!! Please enter again!!!\n");}
             }
              
+        }
+        
+        for (int i=0;i<5;i++){
+            System.out.println("Prog: " + studList[i].getProgName() +" Name: " +studList[i].getStudName() +" ID: " +studList[i].getStudId());
         }
         
     }
