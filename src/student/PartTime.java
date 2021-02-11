@@ -7,8 +7,8 @@ package student;
 
 /**
  *
- * @author vuhanh
+ * @author hieuv
  */
 public class PartTime {
-    
+    int number;
 }
